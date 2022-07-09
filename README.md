@@ -6,6 +6,15 @@
 
 Имена актеров нужно вводить на английском языке.
 
+Сервис использует postgresql, actorsdb, которая содержит всего одну таблицу actors
+```
+create table actors
+(
+  name     varchar(100) not null,
+  actor_id varchar(100) not null
+);
+```
+
 Пример запроса:
 
 ```
